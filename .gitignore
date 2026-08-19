@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments and local configuration
+.venv/
+venv/
+.env
+.streamlit/secrets.toml
+
+# Local documents and generated vector data
+data/pdfs/*
+!data/pdfs/.gitkeep
+chroma_db/
+evaluation/results/
+
+# IDE and operating system files
+.DS_Store
+__MACOSX/
+.idea/
+.vscode/

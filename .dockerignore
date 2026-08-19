@@ -1,0 +1,13 @@
+.git
+.github
+.venv
+__pycache__
+.pytest_cache
+.ruff_cache
+.coverage
+.env
+.DS_Store
+chroma_db
+data/pdfs/*
+evaluation/results
+tests
